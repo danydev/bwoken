@@ -108,6 +108,7 @@ $ bwoken test -h
         --scheme                Specify a custom scheme
         --product-name          Specify a custom product name (e.g. --product-name="My Product"). Default is the name of of the xcodeproj file
         --integration-path      Specify a custom directory to store your test scripts in (e.g. --integration-path=uiautomation/path/dir). Note that this folder still expects the same directory structure as the one create by `bwoken init`.
+        --configuration         Specify a build configuration. Default is Debug
         --formatter             Specify a custom formatter (e.g., --formatter=passthru)
         --focus                 Specify particular tests to run
         --clobber               Remove any generated file
